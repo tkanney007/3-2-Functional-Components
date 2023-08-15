@@ -17,7 +17,7 @@ export default function Genre({
     <>
       <h2>{name}</h2>
       <p>{description}</p>
-      <div className="card-group">
+      <div class="col-sm-2 mb-3 mb-sm-0">
         <Movie
           title={movieTitle1}
           description={movieDesc1}
